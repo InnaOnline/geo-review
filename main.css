@@ -1,0 +1,94 @@
+html,
+#map {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+b {
+  color: #000;
+  margin-right: 8px;
+}
+
+.review-item {
+  font-size: 16px;
+  color: #8F8F8F;
+}
+
+.form {
+  width: 354px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+}
+
+.form__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 90%;
+  color: #000;
+  border: 1px solid #CFCFCF;
+  border-radius: 3px;
+  padding: 12px;
+  resize: none;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.form__input:focus {
+  border-color: #1371C8;
+}
+
+.form__input::placeholder {
+  color: #000;
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.form__input:focus::placeholder {
+  opacity: 0;
+}
+
+.form__input--textarea {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.form .form-error {
+  color: red;
+}
+
+.form .review-list {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: #FF8663;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.button:hover {
+  background: #ff5722;
+}
